@@ -86,7 +86,7 @@ tmp_var_lists=(
 # tmp dir
 tmpdir=$(mktemp -u)
 [[ ! $tmpdir ]] && {
-    tmpdir=/tmp/tmp-$RANDOM
+    tmpdir=/yuyu_tank/tmp/tmp-$RANDOM
 }
 
 # set up var
