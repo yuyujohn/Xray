@@ -84,7 +84,7 @@ tmp_var_lists=(
 )
 
 # tmp dir
-tmpdir=$(mktemp -u)
+tmpdir=$(mktemp -u -p /yuyu_tank/tmp)
 [[ ! $tmpdir ]] && {
     tmpdir=/yuyu_tank/tmp/tmp-$RANDOM
 }
